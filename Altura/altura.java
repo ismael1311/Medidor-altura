@@ -12,5 +12,11 @@ public class Main {
         } else {
             System.out.println("No eres alto");
         }
-    }
-}
+
+        System.out.println("Ingrese su edad:");
+        int edad = scanner.nextInt();
+
+        if (edad > 30) {
+            System.out.println("Eres adulto");
+        } else {
+            System.out.println("Eres joven");
